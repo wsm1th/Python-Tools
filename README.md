@@ -1,2 +1,6 @@
 # Python-Tools
-Collection of security tools written in Python
+
+Collection of some tools written in Python
+
+ToDo:
+  - add functionality for csv ingest in parse_out_MIDs.py
