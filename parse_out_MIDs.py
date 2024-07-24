@@ -9,9 +9,9 @@ text = '''
 
 #find every string matching the regex pattern for a standard MessageId and add it to "matches"
 matches = re.findall(r'(<[^>]+>)', text)
-print(f'Found {len(matches)} MessageIds.')
 #if "matches" is not empty
 if len(matches) != 0:
+    print(f'Found {len(matches)} MessageIds.')
     #dedupe
     newMatches = set(matches)
     #open file to write formatted MessageIds
