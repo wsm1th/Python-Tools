@@ -4,7 +4,7 @@ org = input("OrgName: ")
 user = input("userID: ")
 
 text = '''
-#insert string here. This can be any string containing MessageIds in the standard <message.id.format>
+#insert string here. This can be any string containing MessageIds in the standard <message@id.format>
 '''
 
 #find every string matching the regex pattern for a standard MessageId and add it to "matches"
